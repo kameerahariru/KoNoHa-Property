@@ -14,17 +14,17 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#background-of-the-project">Background of the Project</a></li>
     <li><a href="#team-structure">Team Structure</a></li>
-    <li><a href="#problem-statement">Problem Statement</a></li>
+    <li><a href="#problem-statement">Problem Statement & Objectives</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgement">Acknowledgement</a></li>
   </ol>
 </details>
 
 
-<!-- About The Projects -->
-## About The Project
+<!-- Background of The Projects -->
+## Background of The Project
 
 KONOHA Holdings has been tasked to produce a house price prediction model. After some research, we decided to focus dataset available in Kuala Lumpur city. House price prediction model are expected to HELP BUYERS i.e. people who plan to buy a house so they can know the price range in the future, then they can plan their finance well. In addition, house price predictions are also beneficial for HELP SELLER i.e. property investors to know the trend of housing prices in a certain location.
 
@@ -50,7 +50,7 @@ graph TD;
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Problem Statement -->
-## Problem Statement
+## Problem Statement & Objectives
 
 In a house price prediction model project, the common problem statements typically revolve around understanding and predicting the value of residential properties based on various features. Here are some common problem statements you might encounter:
 
@@ -86,4 +86,46 @@ In a house price prediction model project, the common problem statements typical
    - *Problem Statement:* "Assess the impact of economic factors (e.g., interest rates, unemployment rates) on house prices and incorporate these factors into the predictive model."
    - *Objective:* Integrate macroeconomic indicators into the model to enhance price predictions and account for broader economic influences.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Project Location
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              101.61866004946938,
+              3.2256216237932307
+            ],
+            [
+              101.61866004946938,
+              3.101070592555459
+            ],
+            [
+              101.78437953118771,
+              3.101070592555459
+            ],
+            [
+              101.78437953118771,
+              3.2256216237932307
+            ],
+            [
+              101.61866004946938,
+              3.2256216237932307
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
+}
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
