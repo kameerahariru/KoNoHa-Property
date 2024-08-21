@@ -26,18 +26,62 @@
 <!-- Background of The Projects -->
 ## Background of The Project
 
-KONOHA Holdings has been tasked to produce a house price prediction model. After some research, we decided to focus dataset available in Kuala Lumpur city. House price prediction model are expected to HELP BUYERS i.e. people who plan to buy a house so they can know the price range in the future, then they can plan their finance well. In addition, house price predictions are also beneficial for HELP SELLER i.e. property investors to know the trend of housing prices in a certain location.
+KONOHA Holdings has been tasked to produce a house price prediction model within a week. After some quick research, we decided to focus on datasets available in Federal Territory of Kuala Lumpur. House price prediction model are expected to HELP BUYERS i.e. people who plan to buy a house so they can know the price range in the future, then they can plan their finance well. In addition, house price predictions are also beneficial for HELP SELLER i.e. property investors to know the trend of housing prices in a certain location.
+
+### Methodology
 
 We divide the SOPs into three phases which are:
 
-| Phase 1 | Phase 2 | Phase 3 |
-| ------------- | ------------- | ------------- |
-| PLANNING | DATA PREPARATION | ML MODELLING |
-| ------------- | ------------- | ------------- |
-| 1.Define goals | 5. Get data | 9. Create model |
-| 2. Organize resources | 6. Clean data | 10. Validate model |
-| 3. Coordinate team | 7. Explore data | 11. Evaluate model |
-| 4. Schedule project | 8. Refine data | 12. Refine model |
+| Phase 1: PLANNING | Phase 2: DATA PREPARATION | Phase 3: ML MODELLING | Phase 4: DEPLOYMENT |
+| ------------- | ------------- | ------------- | ------------- |
+| 1.Define goals | 5. Get data | 9. Create model | 13. Present Model |
+| 2. Organize resources | 6. Clean data | 10. Validate model | 14. Deploy model |
+| 3. Coordinate team | 7. Explore data | 11. Evaluate model | 15. Modify model |
+| 4. Schedule project | 8. Refine data | 12. Refine model | 16. Model maintenance |
+
+
+### Project Location
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              101.61866004946938,
+              3.2256216237932307
+            ],
+            [
+              101.61866004946938,
+              3.101070592555459
+            ],
+            [
+              101.78437953118771,
+              3.101070592555459
+            ],
+            [
+              101.78437953118771,
+              3.2256216237932307
+            ],
+            [
+              101.61866004946938,
+              3.2256216237932307
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
+}
+```
+<p align="center">Federal Territory of Kuala Lumpur</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Team Structure -->
 ## Team Structure
@@ -45,7 +89,7 @@ We divide the SOPs into three phases which are:
 ```mermaid
 graph TD;
     A(KAMILLA HALIL : Team Leader)-->B(HANIFF ZAID : Data Engineer);
-    A(KAMILLA HALIL : Team Leader)-->C(NASHARUDDING GHAZALI : ML Engineer);
+    A(KAMILLA HALIL : Team Leader)-->C(NASHARUDDIN GHAZALI : ML Engineer);
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,44 +132,4 @@ In a house price prediction model project, the common problem statements typical
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Project Location
 
-```geojson
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              101.61866004946938,
-              3.2256216237932307
-            ],
-            [
-              101.61866004946938,
-              3.101070592555459
-            ],
-            [
-              101.78437953118771,
-              3.101070592555459
-            ],
-            [
-              101.78437953118771,
-              3.2256216237932307
-            ],
-            [
-              101.61866004946938,
-              3.2256216237932307
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    }
-  ]
-}
-```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
