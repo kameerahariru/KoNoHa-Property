@@ -17,6 +17,7 @@
     <li><a href="#background-of-the-project">Background of the Project</a></li>
     <li><a href="#team-structure">Team Structure</a></li>
     <li><a href="#problem-statement--objectives">Problem Statement & Objectives</a></li>
+    <li><a href="#flowchart">Flowchart</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgement">Acknowledgement</a></li>
   </ol>
@@ -129,6 +130,28 @@ In a house price prediction model project, the common problem statements typical
 8. **Impact of Economic Factors**:
    - *Problem Statement:* "Assess the impact of economic factors (e.g., interest rates, unemployment rates) on house prices and incorporate these factors into the predictive model."
    - *Objective:* Integrate macroeconomic indicators into the model to enhance price predictions and account for broader economic influences.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FLOWCHART -->
+## Flowchart
+
+```mermaid
+graph TD;
+    A(Data Collection & Data Scraping:Haniff)-->B(Data Cleaning & Data Preprocessing);
+    B-->C(Flow A:Nash);
+    B-->D(Flow B:Kamilla);
+    C-->E(Exploratory Data Analysis)
+    E-->F(Training Model)
+    F-->G(Model Performance Evaluation)
+    G-->H(Data Testing)
+    D-->J(Exploratory Data Analysis)
+    J-->K(Training Model)
+    K-->L(Model Performance Evaluation)
+    L-->M(Data Testing)
+    H-->I(Presentation)
+    M-->I
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
