@@ -31,7 +31,7 @@ KONOHA Holdings has been tasked to produce a house price prediction model within
 
 ### Methodology
 
-We divide the SOPs into three phases which are:
+We divide the SOPs into four phases which are:
 
 | Phase 1: PLANNING | Phase 2: DATA PREPARATION | Phase 3: ML MODELLING | Phase 4: DEPLOYMENT |
 | ------------- | ------------- | ------------- | ------------- |
