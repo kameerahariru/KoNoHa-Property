@@ -161,9 +161,9 @@ graph TD;
 
 Kamilla Halil - [Github](https://github.com/kameerahariru)
 
-Muhd Nasharuddin Bin Ghazali - [Github](https://github.com/Nash887)
+Nasharuddin Ghazali - [Github](https://github.com/Nash887)
 
-Mohd Haniff Bin Zaid - [LinkedIn](https://www.linkedin.com/in/HaniffZaid) - [Github](https://github.com/HaniffZaid) - [Gmail](mailto:anipzaid@gmail.com)
+Haniff Zaid - [LinkedIn](https://www.linkedin.com/in/HaniffZaid) - [Github](https://github.com/HaniffZaid) - [Gmail](mailto:anipzaid@gmail.com)
 
 Project Link: [Github](https://github.com/kameerahariru/KoNoHa-Property.git)
 
