@@ -173,7 +173,7 @@ Project Link: [Github](https://github.com/kameerahariru/KoNoHa-Property.git)
 <!-- ACKNOWLEDGEMENT -->
 ## Acknowledgement
 
-We want to express our appreciation to our Data Science Bootcamp trainer, Dr. Fairoza Amira Binti Hamzah, for all the knowledges you have given us from the start till the end of the bootcamp. We hope to gain much more knowledge by joining your team in the future. May Allah bless you with success, health, happiness, patience and strength.
+We want to express our appreciation to our Data Science Bootcamp trainer, Dr. Fairoza Amira Binti Hamzah, for all the knowledges she has given us from the start till the end of the bootcamp. We hope to gain much more knowledge by joining her team in the future. May Allah bless you with success, health, happiness, patience and strength.
 
 Dr. Fairoza Amira - [Github](https://github.com/FairozaAmira) - fairozaamira@gmail.com
 
