@@ -133,6 +133,7 @@ In a house price prediction model project, the common problem statements typical
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- FLOWCHART -->
 ## Flowchart
 
@@ -152,8 +153,8 @@ graph TD;
     H-->I(Presentation)
     M-->I
 ```
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTACT -->
 ## Contact
