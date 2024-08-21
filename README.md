@@ -16,7 +16,7 @@
   <ol>
     <li><a href="#background-of-the-project">Background of the Project</a></li>
     <li><a href="#team-structure">Team Structure</a></li>
-    <li><a href="#problem-statement-&-objectives">Problem Statement & Objectives</a></li>
+    <li><a href="#problem-statement-objectives">Problem Statement & Objectives</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgement">Acknowledgement</a></li>
   </ol>
