@@ -27,11 +27,11 @@
 <!-- Background of The Projects -->
 ## Background of The Project
 
-KONOHA Holdings has been tasked to produce a house price prediction model within a week. After some quick research, we decided to focus on datasets available in Federal Territory of Kuala Lumpur. House price prediction model are expected to HELP BUYERS i.e. people who plan to buy a house so they can know the price range in the future, then they can plan their finance well. In addition, house price predictions are also beneficial for HELP SELLER i.e. property investors to know the trend of housing prices in a certain location.
+KONOHA Holdings has been tasked to produce a house price prediction model within a week. After some quick research, we decided to focus on datasets available in Federal Territory of Kuala Lumpur. House price prediction model is expected to HELP BUYERS i.e. people who plan to buy a house so they can know the price range in the future, then they can plan their finance well. In addition, house price predictions is also beneficial to HELP SELLERS i.e. property investors to know the trend of housing prices in a certain location.
 
 ### Methodology
 
-We divide the SOPs into four phases which are:
+We divide the methodologies into four phases which are:
 
 | Phase 1: PLANNING | Phase 2: DATA PREPARATION | Phase 3: ML MODELLING | Phase 4: DEPLOYMENT |
 | ------------- | ------------- | ------------- | ------------- |
@@ -173,7 +173,7 @@ Project Link: [Github](https://github.com/kameerahariru/KoNoHa-Property.git)
 <!-- ACKNOWLEDGEMENT -->
 ## Acknowledgement
 
-We want to express our appreciation to our Data Science Bootcamp trainer, Dr. Fairoza Amira Binti Hamzah, for all the knowledges you have given us from the start till the end of the bootcamp. We hope to gain much more knowledge by joining your team in the future. May Allah bless you with success, health, happiness, patience and strength.
+We want to express our appreciation to our Data Science Bootcamp trainer, Dr. Fairoza Amira Binti Hamzah, for all the knowledge she has taught us from the start till the end of the bootcamp. We hope to gain much more knowledge by joining her team in the future. May Allah bless her with success, health, happiness, patience and strength, amin.
 
 Dr. Fairoza Amira - [Github](https://github.com/FairozaAmira) - fairozaamira@gmail.com
 
