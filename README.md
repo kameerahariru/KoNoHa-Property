@@ -24,7 +24,7 @@
     <li><a href="#problem-statement--objectives">Problem Statements & Objectives</a></li>
     <li><a href="#flowchart">Flowchart</a></li>
     <li><a href="#schedule">Schedule</a></li>
-    <li><a href="future-improvements--applications">Future Improvements & Applications</a></li>
+    <li><a href="#future-improvements--applications">Future Improvements & Applications</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgement">Acknowledgement</a></li>
   </ol>
