@@ -24,7 +24,7 @@
     <li><a href="#problem-statement--objectives">Problem Statement & Objectives</a></li>
     <li><a href="#flowchart">Flowchart</a></li>
     <li><a href="#schedule">Schedule</a></li>
-    <li><a href="future-improvements">Future Improvements & Applications</a></li>
+    <li><a href="future-improvements--applications">Future Improvements & Applications</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgement">Acknowledgement</a></li>
   </ol>
@@ -179,8 +179,8 @@ K = Kamilla Halil, N = Nasharuddin Ghazali, H = Haniff Zaid
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE IMPROVEMENTS -->
-## Future improvements & Applications
+<!-- FUTURE IMPROVEMENTS APPLICATIONS -->
+## Future Improvements & Applications
 
 Improving house price prediction models with machine learning is an ongoing area of research and development. We suggest some promising future improvements:
 
