@@ -43,7 +43,7 @@ We divide the methodologies into four phases which are:
 
 | Phase 1: PLANNING | Phase 2: DATA PREPARATION | Phase 3: ML MODELLING | Phase 4: DEPLOYMENT |
 | ------------- | ------------- | ------------- | ------------- |
-| 1.Define goals | 5. Get data | 9. Create model | 13. Present Model |
+| 1. Define goals | 5. Get data | 9. Create model | 13. Present Model |
 | 2. Organize resources | 6. Clean data | 10. Validate model | 14. Deploy model |
 | 3. Coordinate team | 7. Explore data | 11. Evaluate model | 15. Modify model |
 | 4. Schedule project | 8. Refine data | 12. Refine model | 16. Model maintenance |
@@ -179,7 +179,7 @@ K = Kamilla Halil, N = Nasharuddin Ghazali, H = Haniff Zaid
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE IMPROVEMENTS APPLICATIONS -->
+<!-- FUTURE IMPROVEMENTS & APPLICATIONS -->
 ## Future Improvements & Applications
 
 Improving house price prediction models with machine learning is an ongoing area of research and development. We suggest some promising future improvements:
