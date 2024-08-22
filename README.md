@@ -14,10 +14,17 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#background-of-the-project">Background of the Project</a></li>
+    <li><a href="#background-of-the-project">Background of the Project</a>
+      <ul>
+        <li><a href="#methodology">Methodology</a></li>
+        <li><a href="#project-location">Project Location</a></li>
+      </ul>
+    </li>
     <li><a href="#team-structure">Team Structure</a></li>
     <li><a href="#problem-statement--objectives">Problem Statement & Objectives</a></li>
     <li><a href="#flowchart">Flowchart</a></li>
+    <li><a href="#schedule">Schedule</a></li>
+    <li><a href="future-improvements">Future Improvements & Applications</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgement">Acknowledgement</a></li>
   </ol>
@@ -27,8 +34,9 @@
 <!-- Background of The Projects -->
 ## Background of The Project
 
-KONOHA Holdings has been tasked to produce a house price prediction model within a week. After some quick research, we decided to focus on datasets available in Federal Territory of Kuala Lumpur. House price prediction model is expected to HELP BUYERS i.e. people who plan to buy a house so they can know the price range in the future, then they can plan their finance well. In addition, house price predictions is also beneficial to HELP SELLERS i.e. property investors to know the trend of housing prices in a certain location.
+KONOHA Holdings has been tasked to produce a house price prediction model within a week. After some quick research, we decided to focus on datasets available in Federal Territory of Kuala Lumpur. House price prediction model is expected to **HELP BUYERS** i.e. people who plan to buy a house so they can know the price range in the future, then they can plan their finance well. In addition, house price predictions is also beneficial to **HELP SELLERS** i.e. property investors to know the trend of housing prices in a certain location.
 
+<!-- Methodology -->
 ### Methodology
 
 We divide the methodologies into four phases which are:
@@ -40,7 +48,9 @@ We divide the methodologies into four phases which are:
 | 3. Coordinate team | 7. Explore data | 11. Evaluate model | 15. Modify model |
 | 4. Schedule project | 8. Refine data | 12. Refine model | 16. Model maintenance |
 
+However, we can only proceed until step 13 for this bootcamp group presentation. Step 14 onwards is for future improvements.   
 
+<!-- Project Location -->
 ### Project Location
 
 ```geojson
@@ -97,7 +107,7 @@ graph TD;
 <!-- Problem Statement & Objectives -->
 ## Problem Statement & Objectives
 
-In a house price prediction model project, the common problem statements typically revolve around understanding and predicting the value of residential properties based on various features. Here are some common problem statements you might encounter:
+In a house price prediction model project, the common problem statements typically revolve around understanding and predicting the value of residential properties based on various features. Here are the problem statements that we encounter:
 
 1. **Predicting House Prices**:
    - *Problem Statement:* "Given a dataset with various features of houses (such as size, location, number of bedrooms, etc.), predict the selling price of a house."
@@ -123,11 +133,7 @@ In a house price prediction model project, the common problem statements typical
    - *Problem Statement:* "Identify and manage outliers in the housing dataset that may distort the predictions of house prices."
    - *Objective:* Develop methods to detect and handle outliers to improve the accuracy and robustness of the predictive model.
 
-7. **Time Series Analysis for Price Trends**:
-   - *Problem Statement:* "Analyze and predict trends in house prices over time, considering historical data to forecast future price movements."
-   - *Objective:* Build a time series model to understand and predict how house prices change over time.
-
-8. **Impact of Economic Factors**:
+7. **Impact of Economic Factors**:
    - *Problem Statement:* "Assess the impact of economic factors (e.g., interest rates, unemployment rates) on house prices and incorporate these factors into the predictive model."
    - *Objective:* Integrate macroeconomic indicators into the model to enhance price predictions and account for broader economic influences.
 
@@ -139,9 +145,9 @@ In a house price prediction model project, the common problem statements typical
 
 ```mermaid
 graph TD;
-    A(Data Collection & Data Scraping:Haniff)-->B(Data Cleaning & Data Preprocessing);
-    B-->C(Flow A:Nash);
-    B-->D(Flow B:Kamilla);
+    A(Data Collection & Data Scraping : Haniff)-->B(Data Cleaning & Data Preprocessing);
+    B-->C(Flow A : Nash);
+    B-->D(Flow B : Kamilla);
     C-->E(Exploratory Data Analysis)
     E-->F(Training Model)
     F-->G(Model Performance Evaluation)
@@ -153,6 +159,56 @@ graph TD;
     H-->I(Presentation)
     M-->I
 ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- SCHEDULE -->
+## Schedule
+
+|  | DAY 1 | DAY 2 | DAY 3 | DAY 4 | DAY 5 | DAY 6 | DAY 7 | DAY 8 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| ITEMS | 170824 | 180824 | 190824 | 200824 | 210824 | 220824 | 230824 | 240824 | 
+| Data Collection and Scraping | -- H -- | 
+| Data Cleaning and Preprocessing |  | -- H -- | -- H -- |
+| Exploratory Data Analysis |  |  |  | -- KN -- |
+| ML Data Modelling |  |  |  |  | -- KN -- |
+| Model Performance Evaluation |  |  |  |  |  | - KNH - | - KNH - |
+| Presentation |  |  |  |  |  |  |  | - KNH - |
+
+K= Kamilla, N= Nash, H= Haniff
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE IMPROVEMENTS -->
+## Future improvements & Applications
+
+Improving house price prediction models with machine learning is an ongoing area of research and development. We suggest some promising future improvements:
+
+1. **Feature Engineering and Selection**:
+   - **More Granular Features**: Incorporating detailed features such as neighborhood amenities, local school ratings, or future infrastructure plans.
+   - **Temporal Features**: Integrating time-based features to capture trends and seasonal variations in the housing market.
+   - **Interaction Terms**: Exploring interactions between different features to capture complex relationships.
+
+2. **Data Quality and Quantity**:
+   - **Enhanced Data Collection**: Using more comprehensive datasets, including satellite imagery, social media sentiment, and economic indicators.
+   - **Data Augmentation**: Leveraging synthetic data or data from related domains to improve model robustness.
+   - **Better Data Cleaning**: Improving preprocessing techniques to handle missing values, outliers, and data inconsistencies.
+
+3. **Advanced Model Architectures**:
+   - **Ensemble Methods**: Combining multiple models (e.g., gradient boosting, random forests) to improve prediction accuracy.
+   - **Deep Learning**: Employing neural networks, such as convolutional neural networks (CNNs) for spatial data or recurrent neural networks (RNNs) for temporal data.
+   - **Hybrid Models**: Combining traditional statistical methods with machine learning techniques for better performance.
+
+4. **Explainability and Interpretability**:
+   - **Model Transparency**: Developing models that provide insights into how predictions are made, which helps in understanding and trust.
+   - **Feature Importance**: Providing clear explanations of which features are driving the predictions.
+
+8. **User Personalization**:
+   - **Customized Recommendations**: Tailoring predictions based on user-specific preferences or past behavior.
+   - **Interactive Tools**: Developing interfaces that allow users to explore different scenarios and their impacts on house prices.
+
+Implementing these improvements requires a combination of better data, advanced modeling techniques, and ongoing evaluation to adapt to evolving market conditions.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
