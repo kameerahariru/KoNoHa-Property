@@ -168,14 +168,14 @@ graph TD;
 |  | DAY 1 | DAY 2 | DAY 3 | DAY 4 | DAY 5 | DAY 6 | DAY 7 | DAY 8 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | ITEMS | 170824 | 180824 | 190824 | 200824 | 210824 | 220824 | 230824 | 240824 | 
-| Data Collection and Scraping | -- H -- | 
-| Data Cleaning and Preprocessing |  | -- H -- | -- H -- |
-| Exploratory Data Analysis |  |  |  | -- KN -- |
-| ML Data Modelling |  |  |  |  | -- KN -- |
-| Model Performance Evaluation |  |  |  |  |  | - KNH - | - KNH - |
-| Presentation |  |  |  |  |  |  |  | - KNH - |
+| Data Collection and Scraping | H | 
+| Data Cleaning and Preprocessing |  | H | H |
+| Exploratory Data Analysis |  |  |  | KN |
+| ML Data Modelling |  |  |  |  | KN |
+| Model Performance Evaluation |  |  |  |  |  | KNH | KNH |
+| Presentation |  |  |  |  |  |  |  | KNH |
 
-K= Kamilla, N= Nash, H= Haniff
+K = Kamilla Halil, N = Nasharuddin Ghazali, H = Haniff Zaid
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
