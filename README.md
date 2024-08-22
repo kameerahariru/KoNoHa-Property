@@ -215,13 +215,13 @@ Implementing these improvements requires a combination of better data, advanced 
 <!-- CONTACT -->
 ## Contact
 
-Kamilla Halil - [Github](https://github.com/kameerahariru)
+1. Kamilla Halil - [Github](https://github.com/kameerahariru)
 
-Nasharuddin Ghazali - [Github](https://github.com/Nash887)
+2. Nasharuddin Ghazali - [Github](https://github.com/Nash887)
 
-Haniff Zaid - [LinkedIn](https://www.linkedin.com/in/HaniffZaid) - [Github](https://github.com/HaniffZaid) - [Gmail](mailto:anipzaid@gmail.com)
+3. Haniff Zaid - [LinkedIn](https://www.linkedin.com/in/HaniffZaid) - [Github](https://github.com/HaniffZaid) - [Gmail](mailto:anipzaid@gmail.com)
 
-Project Link: [Github](https://github.com/kameerahariru/KoNoHa-Property.git)
+   - Project Link: [Github](https://github.com/kameerahariru/KoNoHa-Property.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
