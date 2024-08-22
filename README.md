@@ -215,7 +215,7 @@ Implementing these improvements requires a combination of better data, advanced 
 <!-- CONTACT -->
 ## Contact
 
-1. Kamilla Halil - [Github](https://github.com/kameerahariru)
+1. Kamilla Halil - [LinkedIn](https://www.linkedin.com/in/kamilah-abang-abdul-halil) - [Github](https://github.com/kameerahariru) - [Gmail](mailto:harirukamira@gmail.com)
 
 2. Nasharuddin Ghazali - [Github](https://github.com/Nash887)
 
@@ -231,6 +231,6 @@ Implementing these improvements requires a combination of better data, advanced 
 
 We want to express our appreciation to our Data Science Bootcamp trainer, Dr. Fairoza Amira Binti Hamzah, for all the knowledge she has taught us from the start till the end of the bootcamp. We hope to gain much more knowledge by joining her team in the future. May Allah bless her with success, health, happiness, patience and strength, amin.
 
-Dr. Fairoza Amira - [Github](https://github.com/FairozaAmira) - fairozaamira@gmail.com
+Dr. Fairoza Amira - [LinkedIn](https://www.linkedin.com/in/fairoza-amira-binti-hamzah) - [Github](https://github.com/FairozaAmira) - [Gmail](mailto:fairozaamira@gmail.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
