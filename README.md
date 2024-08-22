@@ -21,7 +21,7 @@
       </ul>
     </li>
     <li><a href="#team-structure">Team Structure</a></li>
-    <li><a href="#problem-statements--objectives">Problem Statements & Objectives</a></li>
+    <li><a href="#problem-statement--objectives">Problem Statements & Objectives</a></li>
     <li><a href="#flowchart">Flowchart</a></li>
     <li><a href="#schedule">Schedule</a></li>
     <li><a href="future-improvements--applications">Future Improvements & Applications</a></li>
