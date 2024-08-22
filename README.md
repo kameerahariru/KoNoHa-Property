@@ -21,7 +21,7 @@
       </ul>
     </li>
     <li><a href="#team-structure">Team Structure</a></li>
-    <li><a href="#problem-statement--objectives">Problem Statement & Objectives</a></li>
+    <li><a href="#problem-statements--objectives">Problem Statements & Objectives</a></li>
     <li><a href="#flowchart">Flowchart</a></li>
     <li><a href="#schedule">Schedule</a></li>
     <li><a href="future-improvements--applications">Future Improvements & Applications</a></li>
@@ -31,12 +31,12 @@
 </details>
 
 
-<!-- Background of The Projects -->
+<!-- BACKGROUND OF THE PROJECT -->
 ## Background of The Project
 
 KONOHA Holdings has been tasked to produce a house price prediction model within a week. After some quick research, we decided to focus on datasets available in Federal Territory of Kuala Lumpur. House price prediction model is expected to **HELP BUYERS** i.e. people who plan to buy a house so they can know the price range in the future, then they can plan their finance well. In addition, house price predictions is also beneficial to **HELP SELLERS** i.e. property investors to know the trend of housing prices in a certain location.
 
-<!-- Methodology -->
+<!-- METHODOLOGY -->
 ### Methodology
 
 We divide the methodologies into four phases which are:
@@ -50,7 +50,7 @@ We divide the methodologies into four phases which are:
 
 However, we can only proceed until step 13 for this bootcamp group presentation. Step 14 onwards is for future improvements.   
 
-<!-- Project Location -->
+<!-- PROJECT LOCATION -->
 ### Project Location
 
 ```geojson
@@ -94,7 +94,7 @@ However, we can only proceed until step 13 for this bootcamp group presentation.
 <p align="center">Federal Territory of Kuala Lumpur</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Team Structure -->
+<!-- TEAM STRUCTURE -->
 ## Team Structure
 
 ```mermaid
@@ -104,7 +104,7 @@ graph TD;
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Problem Statement & Objectives -->
+<!-- PROBLEM STATEMENTS & OBJECTIVES -->
 ## Problem Statement & Objectives
 
 In a house price prediction model project, the common problem statements typically revolve around understanding and predicting the value of residential properties based on various features. Here are the problem statements that we encounter:
