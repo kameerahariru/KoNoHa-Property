@@ -21,12 +21,12 @@
         <li><a href="#project-flowchart">Project Flowchart</a></li>
       </ul>
     </li>
-    <li><a href="#phase-1-planning)">PHASE 1 : PLANNING</a>
+    <li><a href="#phase-1-planning">PHASE 1 : PLANNING</a>
       <ul>
         <li><a href="#1-define-goals">1. Define Goals</a></li>
         <li><a href="#2-organize-resources">2. Organize Resources</a></li>
         <li><a href="#3-coordinate-team">3. Coordinate Team</a></li>
-        <li><a href="#4-schedule-projects">4. Schedule Project</a></li>
+        <li><a href="#4-schedule-project">4. Schedule Project</a></li>
       </ul>
     </li>
     <li><a href="#phase-2-data-preparation">PHASE 2 : DATA PREPARATION</a>
