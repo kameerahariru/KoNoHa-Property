@@ -18,7 +18,7 @@
       <ul>
         <li><a href="#methodology">Methodology</a></li>
         <li><a href="#project-location">Project Location</a></li>
-        <li><a href="#project-flowchart">Flowchart</a></li>
+        <li><a href="#project-flowchart">Project Flowchart</a></li>
       </ul>
     </li>
     <li><a href="#phase-1-planning)">PHASE 1 : PLANNING</a>
@@ -39,13 +39,18 @@
     </li>
     <li><a href="#phase-3-ml-modelling">PHASE 3 : ML MODELLING</a>
       <ul>
-        <li><a href="#define-goals">1. Define Goals</a></li>
-        <li><a href="#organize-resources">2. Organize Resources</a></li>
-        <li><a href="#coordinate-team">3. Coordinate Team</a></li>
-        <li><a href="#schedule">4.Schedule Project</a></li>
+        <li><a href="#9-create-model">9. Create Model</a></li>
+        <li><a href="#10-validate-model">10. Validate Model</a></li>
+        <li><a href="#11-evaluate-model">11. Evaluate Model</a></li>
+        <li><a href="#12-refine-model">12. Refine Model</a></li>
       </ul>
     </li>
-    <li><a href="#future-improvements--applications">Future Improvements & Applications</a></li>
+    <li><a href="#phase-4-deployment">PHASE 4 : DEPLOYMENT</a>
+      <ul>
+        <li><a href="#13-present-model">9. Create Model</a></li>
+        <li><a href="#future-improvements--applications">Future Improvements & Applications</a></li>
+      </ul>
+    </li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgement">Acknowledgement</a></li>
   </ol>
@@ -69,7 +74,7 @@ We divide the methodologies into four phases which are:
 | 3. Coordinate team | 7. Explore data | 11. Evaluate model | 15. Modify model |
 | 4. Schedule project | 8. Refine data | 12. Refine model | 16. Model maintenance |
 
-However, we can only proceed until step 13 for this bootcamp group presentation. Step 14 onwards is for future improvements.   
+However, we can only proceed until Step 13 for this bootcamp group presentation. Step 14 onwards are for future improvements.   
 
 <!-- PROJECT LOCATION -->
 ### Project Location
@@ -174,7 +179,7 @@ The **PROBLEM STATEMENTS & OBJECTIVES** are as follows:
 
 
 <!-- ORGANIZE RESOURCES -->
-### 2. Organize resources
+### 2. Organize Resources
 
 We have been tasked to predict the sales price for houses in Malaysia includes Condominium, Landed in various places. Datasets can be used:
 1. [Malaysian condominium prices data](https://www.kaggle.com/datasets/mcpenguin/raw-malaysian-housing-prices-data)
@@ -241,14 +246,14 @@ This project were written in Google Colaboratory. Firstly, we downloaded  `data_
 We started data cleaning by:
   1. Display summary statistics
   2. Check for missing values
-  3. Based on the statistics, we decided to drop the Car Parks column because it comprises of 31% of overall data.
+  3. Based on the statistics, we decided to drop the `Car Parks` column because it comprises of 31% of overall data.
   4. Then we trasform the data by columns
-     - Location: Strip the Kuala Lumpur words
-     - Price: Extract only numerical value
-     - Rooms: Split the value into Rooms and Store
-     - Property Type: Standardize the type
-     - Size: Select only the numerical value
-  5. Create new column comprises Price/Sqft for further ML model prediction process
+     - `Location`: Strip the Kuala Lumpur words
+     - `Price`: Extract only numerical value
+     - `Rooms`: Split the value into Rooms and Store
+     - `Property Type`: Standardize the type
+     - `Size`: Select only the numerical value
+  5. Create new column comprises `Price/Sqft` for further ML model prediction process
 
 ### 7. Explore Data
 
@@ -256,7 +261,7 @@ We use `sklearn.preprocessing.LabelEncoder` to transforms categorical variables 
 
 ### 8. Refine Data
 
-We detected outliers using Z-score and IQR methods. Then we remove extreme outliers.
+We detected outliers using `Z-score` and `IQR` methods. Then we remove extreme outliers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -266,11 +271,26 @@ We detected outliers using Z-score and IQR methods. Then we remove extreme outli
 
 ### 9. Create Model
 
+We tried a few regression models to train and test the cleaned datasets, which are:
+  - `Linear Regression`
+  - `Random Forest`
+  - `XGBoost`
+  - `Decision Trees`
+
 ### 10. Validate Model
 
 ### 11. Evaluate Model
 
+We performed model evaluation to assess the performance of all regression model by calculating several key metrics which are:
+  - `Mean Squared Error (MSE)`
+  - `Root Mean Squared Error (RMSE)`
+  - `Mean Absolute Error (MAE)`
+  - `R-squared (R²) score`
+
 ### 12. Refine Model
+
+We performed comparison between Model Predictions and Actual Values
+<img src="Model Prediction Comparison.png">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -278,7 +298,8 @@ We detected outliers using Z-score and IQR methods. Then we remove extreme outli
 <!-- DEPLOYMENT -->
 ## **PHASE 4: DEPLOYMENT**
 
-### Present Model
+<!-- PRESENT MODEL -->
+### 13. Present Model
 
 <!-- FUTURE IMPROVEMENTS & APPLICATIONS -->
 ### Future Improvements & Applications
@@ -318,7 +339,7 @@ Implementing these improvements requires a combination of better data, advanced 
 
 1. Kamilah Halil - [LinkedIn](https://www.linkedin.com/in/kamilah-abang-abdul-halil-2aa0b6203) - [Github](https://github.com/kameerahariru) - [Gmail](mailto:harirukamira@gmail.com)
 
-2. Nasharuddin Ghazali - [Github](https://github.com/Nash887)
+2. Nasharuddin Ghazali - [LinkedIn](https://www.linkedin.com/in/muhd-ghazali-4432ba1b4/) - [Github](https://github.com/Nash887) - [Gmail](mailto:nasharuddin.ghazali@gmail.com)
 
 3. Haniff Zaid - [LinkedIn](https://www.linkedin.com/in/HaniffZaid) - [Github](https://github.com/HaniffZaid) - [Gmail](mailto:anipzaid@gmail.com)
 
