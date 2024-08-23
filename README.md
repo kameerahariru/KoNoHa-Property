@@ -18,7 +18,7 @@
       <ul>
         <li><a href="#methodology">Methodology</a></li>
         <li><a href="#project-location">Project Location</a></li>
-        <li><a href="#flowchart">Flowchart</a></li>
+        <li><a href="#project-flowchart">Flowchart</a></li>
       </ul>
     </li>
     <li><a href="#phase-1-planning)">PHASE 1 : PLANNING</a>
@@ -29,7 +29,15 @@
         <li><a href="#4-schedule-projects">4. Schedule Project</a></li>
       </ul>
     </li>
-    <li><a href="#planning-2-data-preparation">PHASE 2 : DATA PREPARATION</a>
+    <li><a href="#phase-2-data-preparation">PHASE 2 : DATA PREPARATION</a>
+      <ul>
+        <li><a href="#5-get-data">5. Get Data</a></li>
+        <li><a href="#6-clean-data">6. Clean Data</a></li>
+        <li><a href="#7-explore-data">7. Explore Data</a></li>
+        <li><a href="#8-refine-data">8. Refine Data</a></li>
+      </ul>
+    </li>
+    <li><a href="#phase-3-ml-modelling">PHASE 3 : ML MODELLING</a>
       <ul>
         <li><a href="#define-goals">1. Define Goals</a></li>
         <li><a href="#organize-resources">2. Organize Resources</a></li>
