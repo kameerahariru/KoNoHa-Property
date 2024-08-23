@@ -134,7 +134,7 @@ graph TD;
 <!-- DEFINE GOALS -->
 ### 1. Define Goals
 
-The goals is to  to HELP BUYERS i.e. people who plan to buy a house so they can know the price range in the future, then they can plan their finance well. In addition, house price predictions is also beneficial to HELP SELLERS i.e. property investors to know the trend of housing prices in a certain location around KL.
+The goals is to HELP BUYERS i.e. people who plan to buy a house so they can know the price range in the future, then they can plan their finance well. In addition, house price predictions is also beneficial to HELP SELLERS i.e. property investors to know the trend of housing prices in a certain location around KL.
 
 The **PROBLEM STATEMENTS & OBJECTIVES** are as follows:
 
