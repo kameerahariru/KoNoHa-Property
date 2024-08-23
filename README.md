@@ -21,12 +21,20 @@
         <li><a href="#flowchart">Flowchart</a></li>
       </ul>
     </li>
-    <li><a href="#planning-phase">PHASE 1 : PLANNING</a>
+    <li><a href="#phase-1-planning)">PHASE 1 : PLANNING</a>
+      <ul>
+        <li><a href="#1-define-goals">1. Define Goals</a></li>
+        <li><a href="#2-organize-resources">2. Organize Resources</a></li>
+        <li><a href="#3-coordinate-team">3. Coordinate Team</a></li>
+        <li><a href="#4-schedule-projects">4. Schedule Project</a></li>
+      </ul>
+    </li>
+    <li><a href="#planning-2-data-preparation">PHASE 2 : DATA PREPARATION</a>
       <ul>
         <li><a href="#define-goals">1. Define Goals</a></li>
         <li><a href="#organize-resources">2. Organize Resources</a></li>
         <li><a href="#coordinate-team">3. Coordinate Team</a></li>
-        <li><a href="#schedule">Schedule Project</a></li>
+        <li><a href="#schedule">4.Schedule Project</a></li>
       </ul>
     </li>
     <li><a href="#future-improvements--applications">Future Improvements & Applications</a></li>
@@ -99,7 +107,7 @@ However, we can only proceed until step 13 for this bootcamp group presentation.
 <p align="center">Federal Territory of Kuala Lumpur (KL)</p>
 
 <!-- FLOWCHART -->
-## Project Flowchart
+### Project Flowchart
 
 ```mermaid
 graph TD;
@@ -124,11 +132,11 @@ graph TD;
 ## **PHASE 1: PLANNING**
 
 <!-- DEFINE GOALS -->
-## 1. Define Goals
+### 1. Define Goals
 
 The goals is to  to HELP BUYERS i.e. people who plan to buy a house so they can know the price range in the future, then they can plan their finance well. In addition, house price predictions is also beneficial to HELP SELLERS i.e. property investors to know the trend of housing prices in a certain location around KL.
 
-Meanwhile, the problem statemenst & objectives are as follows:
+The **PROBLEM STATEMENTS & OBJECTIVES** are as follows:
 
 1. **Predicting House Prices**:
    - *Problem Statement:* "Given a dataset with various features of houses (such as size, location, number of bedrooms, etc.), predict the selling price of a house."
@@ -154,19 +162,23 @@ Meanwhile, the problem statemenst & objectives are as follows:
    - *Problem Statement:* "Identify and manage outliers in the housing dataset that may distort the predictions of house prices."
    - *Objective:* Develop methods to detect and handle outliers to improve the accuracy and robustness of the predictive model.
 
-7. **Impact of Economic Factors**:
-   - *Problem Statement:* "Assess the impact of economic factors (e.g., interest rates, unemployment rates) on house prices and incorporate these factors into the predictive model."
-   - *Objective:* Integrate macroeconomic indicators into the model to enhance price predictions and account for broader economic influences.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ORGANIZE RESOURCES -->
+### 2. Organize resources
+
+We have been tasked to predict the sales price for houses in Malaysia includes Condominium, Landed in various places. Datasets can be used:
+1. [Malaysian condominium prices data](https://www.kaggle.com/datasets/mcpenguin/raw-malaysian-housing-prices-data)
+2. [Property listings in Kuala Lumpur](https://www.kaggle.com/datasets/dragonduck/property-listings-in-kuala-lumpur)
+
+After studying both datasets and some other datasets on internet, we decided to choose the **Property listings in Kuala Lumpur** dataset because it only focus specifically in Federal Territory of Kuala Lumpur. The other one is datasets with much bigger scale so it will take much more time to develop the prediction model.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ORGANIZE RESOURCES -->
-## 2. Organize resources
-
-
 
 <!-- COORDINATE TEAM -->
-## 3. Coordinate Team
+### 3. Coordinate Team
 
 Team Structure
 
@@ -179,7 +191,7 @@ graph TD;
 
 
 <!-- SCHEDULE -->
-## 4. Schedule Project
+### 4. Schedule Project
 
 |  | DAY 1 | DAY 2 | DAY 3 | DAY 4 | DAY 5 | DAY 6 | DAY 7 | DAY 8 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -199,12 +211,69 @@ K = Kamilah Halil, N = Nasharuddin Ghazali, H = Haniff Zaid
 <!-- DATA PREPARATION -->
 ## **PHASE 2: DATA PREPARATION**
 
+### 5. Get Data
+
+This project were written in Google Colaboratory. Firstly, we downloaded  `data_kaggle.csv` datasets from [Kaggle](https://www.kaggle.com/datasets/dragonduck/property-listings-in-kuala-lumpur), and mount it into Google Drive. Then following Python libraries were installed:
+
+  ```sh
+  import pandas as pd
+  import re
+  import matplotlib.pyplot as plt
+  import seaborn as sns
+  import numpy as np
+  import sklearn.preprocessing.LabelEncoder
+  import sklearn.model_selection
+  import sklearn.linear_model
+  import sklearn.feature_selection
+  import sklearn.metrics
+  ```
+
+### 6. Clean Data
+
+We started data cleaning by:
+  1. Display summary statistics
+  2. Check for missing values
+  3. Based on the statistics, we decided to drop the Car Parks column because it comprises of 31% of overall data.
+  4. Then we trasform the data by columns
+     - Location: Strip the Kuala Lumpur words
+     - Price: Extract only numerical value
+     - Rooms: Split the value into Rooms and Store
+     - Property Type: Standardize the type
+     - Size: Select only the numerical value
+  5. Create new column comprises Price/Sqft for further ML model prediction process
+
+### 7. Explore Data
+
+We use `sklearn.preprocessing.LabelEncoder` to transforms categorical variables into numerical values
+
+### 8. Refine Data
+
+We detected outliers using Z-score and IQR methods. Then we remove extreme outliers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- ML MODELLING -->
+## **PHASE 3: ML MODELLING**
+
+### 9. Create Model
+
+### 10. Validate Model
+
+### 11. Evaluate Model
+
+### 12. Refine Model
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- DEPLOYMENT -->
+## **PHASE 4: DEPLOYMENT**
+
+### Present Model
+
 <!-- FUTURE IMPROVEMENTS & APPLICATIONS -->
-## Future Improvements & Applications
+### Future Improvements & Applications
 
 Improving house price prediction models with machine learning is an ongoing area of research and development. We suggest some promising future improvements:
 
@@ -245,7 +314,8 @@ Implementing these improvements requires a combination of better data, advanced 
 
 3. Haniff Zaid - [LinkedIn](https://www.linkedin.com/in/HaniffZaid) - [Github](https://github.com/HaniffZaid) - [Gmail](mailto:anipzaid@gmail.com)
 
-   - Project Link: [Github](https://github.com/kameerahariru/KoNoHa-Property.git)
+   - Project link: [Github](https://github.com/kameerahariru/KoNoHa-Property.git)
+   - Project slide presentation: [Google Slides](https://docs.google.com/presentation/d/1ll2SgYuS_S0OPC4TqHXadhiGL1vdAtEBrYCxVSpnGMA/edit?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
