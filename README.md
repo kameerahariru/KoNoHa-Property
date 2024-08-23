@@ -18,12 +18,17 @@
       <ul>
         <li><a href="#methodology">Methodology</a></li>
         <li><a href="#project-location">Project Location</a></li>
+        <li><a href="#flowchart">Flowchart</a></li>
       </ul>
     </li>
-    <li><a href="#team-structure">Team Structure</a></li>
-    <li><a href="#problem-statement--objectives">Problem Statements & Objectives</a></li>
-    <li><a href="#flowchart">Flowchart</a></li>
-    <li><a href="#schedule">Schedule</a></li>
+    <li><a href="#planning-phase">PHASE 1 : PLANNING</a>
+      <ul>
+        <li><a href="#define-goals">1. Define Goals</a></li>
+        <li><a href="#organize-resources">2. Organize Resources</a></li>
+        <li><a href="#coordinate-team">3. Coordinate Team</a></li>
+        <li><a href="#schedule">Schedule Project</a></li>
+      </ul>
+    </li>
     <li><a href="#future-improvements--applications">Future Improvements & Applications</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgement">Acknowledgement</a></li>
@@ -34,7 +39,7 @@
 <!-- BACKGROUND OF THE PROJECT -->
 ## Background of The Project
 
-KONOHA Holdings has been tasked to produce a house price prediction model within a week. After some quick research, we decided to focus on datasets available in Federal Territory of Kuala Lumpur. House price prediction model is expected to **HELP BUYERS** i.e. people who plan to buy a house so they can know the price range in the future, then they can plan their finance well. In addition, house price predictions is also beneficial to **HELP SELLERS** i.e. property investors to know the trend of housing prices in a certain location.
+KONOHA Holdings has been tasked to produce a house price prediction model within a week. After some quick research, we decided to focus on datasets available in Federal Territory of Kuala Lumpur (KL). House price prediction model is expected to **HELP BUYERS** i.e. people who plan to buy a house so they can know the price range in the future, then they can plan their finance well. In addition, house price predictions is also beneficial to **HELP SELLERS** i.e. property investors to know the trend of housing prices in a certain location.
 
 <!-- METHODOLOGY -->
 ### Methodology
@@ -91,23 +96,39 @@ However, we can only proceed until step 13 for this bootcamp group presentation.
   ]
 }
 ```
-<p align="center">Federal Territory of Kuala Lumpur</p>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="center">Federal Territory of Kuala Lumpur (KL)</p>
 
-<!-- TEAM STRUCTURE -->
-## Team Structure
+<!-- FLOWCHART -->
+## Project Flowchart
 
 ```mermaid
 graph TD;
-    A(KAMILAH HALIL : Team Leader)-->B(HANIFF ZAID : Data Engineer);
-    A(KAMILAH HALIL : Team Leader)-->C(NASHARUDDIN GHAZALI : ML Engineer);
+    A(Data Collection & Data Scraping : Haniff Zaid)-->B(Data Cleaning & Data Preprocessing);
+    B-->C(Flow A : Nasharuddin Ghazali);
+    B-->D(Flow B : Kamilah Halil);
+    C-->E(Exploratory Data Analysis)
+    E-->F(Training Model)
+    F-->G(Model Performance Evaluation)
+    G-->H(Data Testing)
+    D-->J(Exploratory Data Analysis)
+    J-->K(Training Model)
+    K-->L(Model Performance Evaluation)
+    L-->M(Data Testing)
+    H-->I(Presentation)
+    M-->I
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- PROBLEM STATEMENTS & OBJECTIVES -->
-## Problem Statement & Objectives
 
-In a house price prediction model project, the common problem statements typically revolve around understanding and predicting the value of residential properties based on various features. Here are the problem statements that we encounter:
+<!-- PLANNING PHASE -->
+## **PHASE 1: PLANNING**
+
+<!-- DEFINE GOALS -->
+## 1. Define Goals
+
+The goals is to  to HELP BUYERS i.e. people who plan to buy a house so they can know the price range in the future, then they can plan their finance well. In addition, house price predictions is also beneficial to HELP SELLERS i.e. property investors to know the trend of housing prices in a certain location around KL.
+
+Meanwhile, the problem statemenst & objectives are as follows:
 
 1. **Predicting House Prices**:
    - *Problem Statement:* "Given a dataset with various features of houses (such as size, location, number of bedrooms, etc.), predict the selling price of a house."
@@ -139,31 +160,26 @@ In a house price prediction model project, the common problem statements typical
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ORGANIZE RESOURCES -->
+## 2. Organize resources
 
-<!-- FLOWCHART -->
-## Flowchart
+
+
+<!-- COORDINATE TEAM -->
+## 3. Coordinate Team
+
+Team Structure
 
 ```mermaid
 graph TD;
-    A(Data Collection & Data Scraping : Haniff Zaid)-->B(Data Cleaning & Data Preprocessing);
-    B-->C(Flow A : Nasharuddin Ghazali);
-    B-->D(Flow B : Kamilah Halil);
-    C-->E(Exploratory Data Analysis)
-    E-->F(Training Model)
-    F-->G(Model Performance Evaluation)
-    G-->H(Data Testing)
-    D-->J(Exploratory Data Analysis)
-    J-->K(Training Model)
-    K-->L(Model Performance Evaluation)
-    L-->M(Data Testing)
-    H-->I(Presentation)
-    M-->I
+    A(KAMILAH HALIL : Team Leader)-->B(HANIFF ZAID : Data Engineer);
+    A(KAMILAH HALIL : Team Leader)-->C(NASHARUDDIN GHAZALI : ML Engineer);
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- SCHEDULE -->
-## Schedule
+## 4. Schedule Project
 
 |  | DAY 1 | DAY 2 | DAY 3 | DAY 4 | DAY 5 | DAY 6 | DAY 7 | DAY 8 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -178,6 +194,14 @@ graph TD;
 K = Kamilah Halil, N = Nasharuddin Ghazali, H = Haniff Zaid
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- DATA PREPARATION -->
+## **PHASE 2: DATA PREPARATION**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- FUTURE IMPROVEMENTS & APPLICATIONS -->
 ## Future Improvements & Applications
