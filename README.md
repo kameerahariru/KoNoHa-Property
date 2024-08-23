@@ -7,7 +7,7 @@
   HOUSE PRICE PREDICTION IN KUALA LUMPUR</h1>
    <h2><p align="center">
      Produced by KONOHA HOLDINGS
-   <p align="center">[ Kamilla Halil, Nasharuddin Ghazali & Haniff Zaid ]</p>
+   <p align="center">[ Kamilah Halil, Nasharuddin Ghazali & Haniff Zaid ]</p>
    </p></h2>
 
   <!-- TABLE OF CONTENTS -->
@@ -99,8 +99,8 @@ However, we can only proceed until step 13 for this bootcamp group presentation.
 
 ```mermaid
 graph TD;
-    A(KAMILLA HALIL : Team Leader)-->B(HANIFF ZAID : Data Engineer);
-    A(KAMILLA HALIL : Team Leader)-->C(NASHARUDDIN GHAZALI : ML Engineer);
+    A(KAMILAH HALIL : Team Leader)-->B(HANIFF ZAID : Data Engineer);
+    A(KAMILAH HALIL : Team Leader)-->C(NASHARUDDIN GHAZALI : ML Engineer);
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,9 +145,9 @@ In a house price prediction model project, the common problem statements typical
 
 ```mermaid
 graph TD;
-    A(Data Collection & Data Scraping : Haniff)-->B(Data Cleaning & Data Preprocessing);
-    B-->C(Flow A : Nash);
-    B-->D(Flow B : Kamilla);
+    A(Data Collection & Data Scraping : Haniff Zaid)-->B(Data Cleaning & Data Preprocessing);
+    B-->C(Flow A : Nasharuddin Ghazali);
+    B-->D(Flow B : Kamilah Halil);
     C-->E(Exploratory Data Analysis)
     E-->F(Training Model)
     F-->G(Model Performance Evaluation)
@@ -175,7 +175,7 @@ graph TD;
 | Model Performance Evaluation |  |  |  |  |  | KNH | KNH |
 | Presentation |  |  |  |  |  |  |  | KNH |
 
-K = Kamilla Halil, N = Nasharuddin Ghazali, H = Haniff Zaid
+K = Kamilah Halil, N = Nasharuddin Ghazali, H = Haniff Zaid
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -215,7 +215,7 @@ Implementing these improvements requires a combination of better data, advanced 
 <!-- CONTACT -->
 ## Contact
 
-1. Kamilla Halil - [LinkedIn](https://www.linkedin.com/in/kamilah-abang-abdul-halil) - [Github](https://github.com/kameerahariru) - [Gmail](mailto:harirukamira@gmail.com)
+1. Kamilah Halil - [LinkedIn](https://www.linkedin.com/in/kamilah-abang-abdul-halil-2aa0b6203) - [Github](https://github.com/kameerahariru) - [Gmail](mailto:harirukamira@gmail.com)
 
 2. Nasharuddin Ghazali - [Github](https://github.com/Nash887)
 
