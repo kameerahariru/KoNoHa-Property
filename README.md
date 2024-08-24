@@ -47,8 +47,8 @@
     </li>
     <li><a href="#phase-4-deployment">PHASE 4 : DEPLOYMENT</a>
       <ul>
-        <li><a href="#13-present-model">9. Create Model</a></li>
-        <li><a href="#future-improvements--applications">Future Improvements & Applications</a></li>
+        <li><a href="#13-present-model">13. Present Model</a></li>
+        <li><a href="#14-future-improvements--applications">14. Future Improvements & Applications</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -74,7 +74,7 @@ We divide the methodologies into four phases which are:
 | 3. Coordinate team | 7. Explore data | 11. Evaluate model | 15. Modify model |
 | 4. Schedule project | 8. Refine data | 12. Refine model | 16. Model maintenance |
 
-However, we can only proceed until Step 13 for this bootcamp group presentation. Step 14 onwards are for future improvements.   
+However, we can only proceed until Step 13 for this bootcamp group presentation. From Step 14 onwards, we combine them are for Future Improvements & Applications.   
 
 <!-- PROJECT LOCATION -->
 ### Project Location
@@ -279,6 +279,8 @@ We tried a few regression models to train and test the cleaned datasets, which a
 
 ### 10. Validate Model
 
+We assessed how well the model performs on unseen data and ensured it generalizes well. This is by split the dataset into `training` and `test` sets.
+
 ### 11. Evaluate Model
 
 We performed model evaluation to assess the performance of all regression model by calculating several key metrics which are:
@@ -302,7 +304,7 @@ We performed comparison between Model Predictions and Actual Values
 ### 13. Present Model
 
 <!-- FUTURE IMPROVEMENTS & APPLICATIONS -->
-### Future Improvements & Applications
+### 14. Future Improvements & Applications
 
 Improving house price prediction models with machine learning is an ongoing area of research and development. We suggest some promising future improvements:
 
