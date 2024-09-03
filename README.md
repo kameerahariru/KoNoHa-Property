@@ -18,15 +18,15 @@
       <ul>
         <li><a href="#methodology">Methodology</a></li>
         <li><a href="#project-location">Project Location</a></li>
-        <li><a href="#project-flowchart">Flowchart</a></li>
+        <li><a href="#project-flowchart">Project Flowchart</a></li>
       </ul>
     </li>
-    <li><a href="#phase-1-planning)">PHASE 1 : PLANNING</a>
+    <li><a href="#phase-1-planning">PHASE 1 : PLANNING</a>
       <ul>
         <li><a href="#1-define-goals">1. Define Goals</a></li>
         <li><a href="#2-organize-resources">2. Organize Resources</a></li>
         <li><a href="#3-coordinate-team">3. Coordinate Team</a></li>
-        <li><a href="#4-schedule-projects">4. Schedule Project</a></li>
+        <li><a href="#4-schedule-project">4. Schedule Project</a></li>
       </ul>
     </li>
     <li><a href="#phase-2-data-preparation">PHASE 2 : DATA PREPARATION</a>
@@ -39,13 +39,18 @@
     </li>
     <li><a href="#phase-3-ml-modelling">PHASE 3 : ML MODELLING</a>
       <ul>
-        <li><a href="#define-goals">1. Define Goals</a></li>
-        <li><a href="#organize-resources">2. Organize Resources</a></li>
-        <li><a href="#coordinate-team">3. Coordinate Team</a></li>
-        <li><a href="#schedule">4.Schedule Project</a></li>
+        <li><a href="#9-create-model">9. Create Model</a></li>
+        <li><a href="#10-validate-model">10. Validate Model</a></li>
+        <li><a href="#11-evaluate-model">11. Evaluate Model</a></li>
+        <li><a href="#12-refine-model">12. Refine Model</a></li>
       </ul>
     </li>
-    <li><a href="#future-improvements--applications">Future Improvements & Applications</a></li>
+    <li><a href="#phase-4-deployment">PHASE 4 : DEPLOYMENT</a>
+      <ul>
+        <li><a href="#13-present-model">13. Present Model</a></li>
+        <li><a href="#14-future-improvements--applications">14. Future Improvements & Applications</a></li>
+      </ul>
+    </li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgement">Acknowledgement</a></li>
   </ol>
@@ -69,7 +74,7 @@ We divide the methodologies into four phases which are:
 | 3. Coordinate team | 7. Explore data | 11. Evaluate model | 15. Modify model |
 | 4. Schedule project | 8. Refine data | 12. Refine model | 16. Model maintenance |
 
-However, we can only proceed until step 13 for this bootcamp group presentation. Step 14 onwards is for future improvements.   
+However, we can only proceed until Step 13 for this bootcamp group presentation. From Step 14 onwards, we combine them for Future Improvements & Applications.   
 
 <!-- PROJECT LOCATION -->
 ### Project Location
@@ -174,7 +179,7 @@ The **PROBLEM STATEMENTS & OBJECTIVES** are as follows:
 
 
 <!-- ORGANIZE RESOURCES -->
-### 2. Organize resources
+### 2. Organize Resources
 
 We have been tasked to predict the sales price for houses in Malaysia includes Condominium, Landed in various places. Datasets can be used:
 1. [Malaysian condominium prices data](https://www.kaggle.com/datasets/mcpenguin/raw-malaysian-housing-prices-data)
@@ -241,14 +246,14 @@ This project were written in Google Colaboratory. Firstly, we downloaded  `data_
 We started data cleaning by:
   1. Display summary statistics
   2. Check for missing values
-  3. Based on the statistics, we decided to drop the Car Parks column because it comprises of 31% of overall data.
+  3. Based on the statistics, we decided to drop the `Car Parks` column because it comprises of 31% of overall data.
   4. Then we trasform the data by columns
-     - Location: Strip the Kuala Lumpur words
-     - Price: Extract only numerical value
-     - Rooms: Split the value into Rooms and Store
-     - Property Type: Standardize the type
-     - Size: Select only the numerical value
-  5. Create new column comprises Price/Sqft for further ML model prediction process
+     - `Location`: Strip the Kuala Lumpur words
+     - `Price`: Extract only numerical value
+     - `Rooms`: Split the value into Rooms and Store
+     - `Property Type`: Standardize the type
+     - `Size`: Select only the numerical value
+  5. Create new column comprises `Price/Sqft` for further ML model prediction process
 
 ### 7. Explore Data
 
@@ -256,7 +261,7 @@ We use `sklearn.preprocessing.LabelEncoder` to transforms categorical variables 
 
 ### 8. Refine Data
 
-We detected outliers using Z-score and IQR methods. Then we remove extreme outliers.
+We detected outliers using `Z-score` and `IQR` methods. Then we remove extreme outliers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -266,11 +271,28 @@ We detected outliers using Z-score and IQR methods. Then we remove extreme outli
 
 ### 9. Create Model
 
+We tried a few regression models to train and test the cleaned datasets, which are:
+  - `Linear Regression`
+  - `Random Forest`
+  - `XGBoost`
+  - `Decision Trees`
+
 ### 10. Validate Model
+
+We assessed how well the model performs on unseen data and ensured it generalizes well. This is by split the dataset into `training` and `test` sets.
 
 ### 11. Evaluate Model
 
+We performed model evaluation to assess the performance of all regression model by calculating several key metrics which are:
+  - `Mean Squared Error (MSE)`
+  - `Root Mean Squared Error (RMSE)`
+  - `Mean Absolute Error (MAE)`
+  - `R-squared (R²) score`
+
 ### 12. Refine Model
+
+We performed comparison between Model Predictions and Actual Values
+<img src="Model Prediction Comparison.png">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -278,10 +300,11 @@ We detected outliers using Z-score and IQR methods. Then we remove extreme outli
 <!-- DEPLOYMENT -->
 ## **PHASE 4: DEPLOYMENT**
 
-### Present Model
+<!-- PRESENT MODEL -->
+### 13. Present Model
 
 <!-- FUTURE IMPROVEMENTS & APPLICATIONS -->
-### Future Improvements & Applications
+### 14. Future Improvements & Applications
 
 Improving house price prediction models with machine learning is an ongoing area of research and development. We suggest some promising future improvements:
 
@@ -304,21 +327,82 @@ Improving house price prediction models with machine learning is an ongoing area
    - **Model Transparency**: Developing models that provide insights into how predictions are made, which helps in understanding and trust.
    - **Feature Importance**: Providing clear explanations of which features are driving the predictions.
 
-8. **User Personalization**:
+5. **User Personalization**:
    - **Customized Recommendations**: Tailoring predictions based on user-specific preferences or past behavior.
    - **Interactive Tools**: Developing interfaces that allow users to explore different scenarios and their impacts on house prices.
 
 Implementing these improvements requires a combination of better data, advanced modeling techniques, and ongoing evaluation to adapt to evolving market conditions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+_______________________________________________________________________________________________________
 
+### **Hey Non-Coders, You Can Contribute Too!**
+
+- *STEP 1 --> Get the Big Picture*: Take a look at our project flow and get to know what’s happening behind the scenes. It’s all about understanding how the pieces fit together.
+- *STEP 2 --> Data Wizardry*: You can help by working your magic on our datasets. Make sure they’re clean and ready to roll before passing them to the coders.
+- *STEP 3 --> Spice Up the Docs*: If writing is your thing, help us make our documentation sparkle! Keep it clear, keep it fun, and make sure it’s up-to-date.
+- *STEP 4 --> Tester Extraordinaire* : Run some tests, take notes, and let us know what you find. You don’t need to write code—just tell us what’s working and what’s not.
+Stay in the Loop: Jump into our Google Drive, GitHub, and Trello boards, and keep the collaboration going. Your insights could be the key to cracking a tough problem!
+
+> You’re a crucial part of this team, and we’re thrilled to have you on board!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+_______________________________________________________________________________________________________
+
+### **Found a Bug? Let’s Squash It Together!**
+
+> First off, thanks for digging in and helping us out! If you’ve found a bug, here’s how we can team up to fix it:
+
+- *STEP 1 --> Shout It Out!*: Open an issue on GitHub and give us the scoop. What’s going wrong? Got screenshots? Even better!
+- *STEP 2 --> Got a Fix? Bring It On!*:  If you’ve got a bright idea for a fix, don’t be shy—share it in the issue. Or go full hero mode and submit a pull request.
+- *STEP 3 --> Chat It Up*:  Let’s talk it out with other contributors and brainstorm the best solution. Your ideas could be the game-changer we need.
+- *STEP 4 --> Test, Test, Test* :  If you’re dropping a fix, make sure to test it like a pro. We want to keep things running smoothly!
+
+> Thanks a million for helping us keep this project in tip-top shape. Every little bit helps, and you’re awesome for contributing!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+_______________________________________________________________________________________________________
+
+### **Known Quirks & Quibbles**
+
+**Quirk #1: Data Drama**
+
+- *What’s Up* : Our data’s got a mind of its own—especially in the Location and Property Type columns. It’s a bit all over the place.
+- *How to Handle It*: Before you run our scripts, give those columns a little TLC and make sure they’re consistent.
+- *We’re On It* : We’re cooking up a script to handle this automatically, so stay tuned!
+
+**Quirk #2: The Overfitting Fiasco**
+
+- *What’s Up* : Our model sometimes gets a little too cozy with small datasets, which isn’t great for generalizing.
+- *How to Handle It* : Try out cross-validation or sprinkle in some regularization to keep things on track.
+
+> We’re On It: We’re exploring new methods to toughen up our model, so hang tight for improvements.
+Check back here for updates—we’re always working on making things better!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+_______________________________________________________________________________________________________
+
+**Help Us Out: Donate to Make This Project Even Cooler!**
+
+> Love what we’re doing? Want to see this project reach new heights? Here’s how you can help:
+
+**Why Donate?**
+
+- *Boost Accuracy* : Your support means we can grab better data and beef up our models to give you spot-on predictions.
+- *Add Cool Stuff* : With your help, we can add snazzy new features like real-time predictions and more user-friendly tools.
+- * Support Open Source*: Your donation keeps this project open and accessible for everyone. Go ahead, be a hero!
+
+**How to Donate:**
+Drop us some love on Paypal or buy us some coffee through this Touch n Go Qr Code.
+Every little bit helps, and we’re super grateful for your support. Thanks for being awesome!
+_______________________________________________________________________________________________________
 
 <!-- CONTACT -->
 ## Contact
 
 1. Kamilah Halil - [LinkedIn](https://www.linkedin.com/in/kamilah-abang-abdul-halil-2aa0b6203) - [Github](https://github.com/kameerahariru) - [Gmail](mailto:harirukamira@gmail.com)
 
-2. Nasharuddin Ghazali - [Github](https://github.com/Nash887)
+2. Nasharuddin Ghazali - [LinkedIn](https://www.linkedin.com/in/muhd-ghazali-4432ba1b4/) - [Github](https://github.com/Nash887) - [Gmail](mailto:nasharuddin.ghazali@gmail.com)
 
 3. Haniff Zaid - [LinkedIn](https://www.linkedin.com/in/HaniffZaid) - [Github](https://github.com/HaniffZaid) - [Gmail](mailto:anipzaid@gmail.com)
 
@@ -327,11 +411,15 @@ Implementing these improvements requires a combination of better data, advanced 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+_______________________________________________________________________________________________________
 <!-- ACKNOWLEDGEMENT -->
 ## Acknowledgement
 
-We want to express our appreciation to our Data Science Bootcamp trainer, Dr. Fairoza Amira Binti Hamzah, for all the knowledge she has taught us from the start till the end of the bootcamp. We hope to gain much more knowledge by joining her team in the future. May Allah bless her with success, health, happiness, patience and strength, amin.
+<img src="https://github.com/kameerahariru/KoNoHa-Property/blob/7fcb0e447f35292937ba6c7eb957d932a4d1720f/complete.png">
+
+We want to express our appreciation to our Data Science Bootcamp Course trainer, Dr. Fairoza Amira Binti Hamzah, for all the knowledge she has taught us from the start till the end of the bootcamp. We hope to gain much more knowledge by joining her team in the future. May Allah bless her with success, health, happiness, patience and strength, amin.
+
+We also would want to express our gratitude to all survived coursemates for making this bootcamp possible to be completed. We started from 14 person and reduced to 6 person in the end. Even we only met online, but the connection were strong. Good luck to all of you for your future undertakings! 
 
 Dr. Fairoza Amira - [LinkedIn](https://www.linkedin.com/in/fairoza-amira-binti-hamzah) - [Github](https://github.com/FairozaAmira) - [Gmail](mailto:fairozaamira@gmail.com)
 
